@@ -1,5 +1,24 @@
 {
+  "name": "Udemy-cypress",
+  "version": "1.5.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "cy:open":"cypress open",
+    "cy:run":"cypress run",
+    "cy:spec":"cypress spec",
+    "cy:test:chorme":"cypress run --browser chrome",
+    "cy:test:firefox":"cypress run --browser firefox",
+    "cy:test:edge":"cypress run --browser edge",
+    "cy:verify":"cypress verify"
+
+  },
   "devDependencies": {
     "cypress": "^12.15.0"
   }
+  
+
+ 
 }
+
+
