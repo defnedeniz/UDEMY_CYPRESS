@@ -1,0 +1,7 @@
+{
+    "validUsername": "deneme@abc.com",
+    "validPassword": "denemePassword",
+    "invalidUsername": "deneme@gmail.com",
+    "invalidPassword":"denemePassword2"
+  }
+  

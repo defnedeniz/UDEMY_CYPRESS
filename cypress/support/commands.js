@@ -28,7 +28,7 @@
 
         Cypress.Commands.add('login',(username,password) =>{
 
-         customCommandsLogin.usernameField.type(username)
+        customCommandsLogin.usernameField.type(username)
         customCommandsLogin.passwordField.type(password)
         customCommandsLogin.loginBtn.click()
 
