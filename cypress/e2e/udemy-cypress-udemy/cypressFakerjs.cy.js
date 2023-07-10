@@ -19,8 +19,11 @@ describe('FakerJs Kullanimi', () => {
         cy.get("input[data-qa='login-email']").type(fakeName)
         cy.get("input[data-qa='login-password']").type(fakePassword)
         cy.get("[data-qa='login-button']").click()
-        cy.get("input[data-qa='login-email']").invoke('prop', "validationMessage")
-        .should('eq',`Please include an '@' in the email address. '${fakeName}' is missing an '@'.`)
+        cy.get("input[data-qa='login-email']")
+          .invoke("prop", "validationMessage")
+          .should(
+            "eq",`Lütfen e-posta adresine bir "@" işareti ekleyin. "${fakeName}" adresinde "@" eksik.`
+          );
 
         
     });
