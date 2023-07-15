@@ -24,6 +24,9 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
+      import 'cypress-file-upload'
+      require("cypress-delete-downloads-folder").addCustomCommand();
+
       import customCommandsLogin from "../pageObjectModel/customCommandsLogin"
 
         Cypress.Commands.add('login',(username,password) =>{
