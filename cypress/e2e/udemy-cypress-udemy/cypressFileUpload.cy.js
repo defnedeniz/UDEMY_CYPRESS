@@ -6,7 +6,7 @@ describe('cpress File Upload', () => {
  
    });
 
-      it("Dosya yukleme -1", () => {
+      it("Dosya yukleme -2", () => {
         cy.visit("https://www.qrcode-monkey.com/");
         cy.get("div:nth-child(3) > div.pane-header > h3").click();
 
