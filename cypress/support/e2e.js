@@ -16,6 +16,17 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 import 'cypress-slow-down/commands'
+import 'cypress-plugin-xhr-toggle'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+//const app = window.top;
+
+  //if(!app.document.head.querySelector('[data-hide-command-log -request]')){
+     // const style = app.document.cre cypreateElement('style');
+     // style.innerHTML='.command-name-request, .command-name-xhr {display:none}';
+     // style.setAttribute('data-hide-command-log-request', '')
+
+     // app.document.head.appendChild(style);
+//}

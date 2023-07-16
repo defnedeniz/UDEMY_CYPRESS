@@ -11,6 +11,9 @@ module.exports = defineConfig({
      // require('cypress-mochawesome-reporter/plugin')(on)
        on("task", { removeDirectory })
     },
+    env:{
+      hideXhr: true,
+    }
    
   },
 });

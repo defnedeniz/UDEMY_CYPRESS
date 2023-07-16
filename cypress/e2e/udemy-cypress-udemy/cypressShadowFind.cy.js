@@ -3,6 +3,7 @@ describe('Shadow ve Find Kullanimi', () => {
         cy.on('uncaught:exception', (err,runnable) => {return false})//hata msjı aldıgımızda bu satırı eklememız yeterlı
     });
     it("Shadow ve Find Kullanimi Ornek Test", () => {
+        
         cy.visit('https://www.mercedes-benz.co.uk/passengercars.html')
 
         //Agree to all buttonuna tiklaycagiz
