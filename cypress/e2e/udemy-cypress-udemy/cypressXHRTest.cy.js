@@ -31,7 +31,7 @@ describe('XHR test', () => {
        });
 
 
-    it('cy.intercept Kullanimi', () => {//ornek kalıp yapıldı sıte ısmı locatler konulabılır 
+    it.skip('cy.intercept Kullanimi', () => {//ornek kalıp yapıldı sıte ısmı locatler konulabılır 
         cy.intercept('GET','url gireceksiniz').as('abc')
         cy.visit('#loginButton').click()
         cy.get('#username').type('deneme')
