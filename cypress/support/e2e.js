@@ -17,6 +17,7 @@
 import './commands'
 import 'cypress-slow-down/commands'
 import 'cypress-plugin-xhr-toggle'
+import "cypress-plugin-steps";
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
